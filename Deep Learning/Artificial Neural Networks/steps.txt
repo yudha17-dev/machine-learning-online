@@ -1,0 +1,7 @@
+1. LabelEncode + OneHotEncode all features
+2. Create Train and Test splits
+3. Build ANN using tf.keras.model.Sequential()
+4. Add hidden layers using tf.keras.layers.Dense(units = ?, activation='relu'), As many hidden layers as needed
+5. Add output layer using tf.keras.layers.Dense(units = 1, actiation = 'sigmoid') n-1 neurons for n outputs, sigmoid for binary
+6. Compile using ann.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
+7. Fit using ann.fit(), batch_size example 32 and set number of epochs
